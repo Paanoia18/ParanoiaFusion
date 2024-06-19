@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <title>ParanoiaFusion - Найди учебных партнеров по всему миру!</title>
+</head>
+
+<body>
+  <header class="header header--loggedIn">
+    <div class="container">
+      <a href="/" class="header__logo">
+        <img src="assets/logo.svg" alt="Логотип" />
+        <h1>ParanoiaFusion</h1>
+      </a>
+      <form class="header__search">
+        <label>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <title>поиск</title>
+            <path
+              d="M32 30.586l-10.845-10.845c1.771-2.092 2.845-4.791 2.845-7.741 0-6.617-5.383-12-12-12s-12 5.383-12 12c0 6.617 5.383 12 12 12 2.949 0 5.649-1.074 7.741-2.845l10.845 10.845 1.414-1.414zM12 22c-5.514 0-10-4.486-10-10s4.486-10 10-10c5.514 0 10 4.486 10 10s-4.486 10-10 10z">
+            </path>
+          </svg>
+          <input placeholder="Поиск комнат..." />
+        </label>
+      </form>
+      <nav class="header__menu">
+        <!-- Не авторизован -->
+        <!-- <a href="/login.html">
+            <img src="./assets/avatar.svg" alt="Аватар" />
+            <p>Войти</p>
+          </a> -->
+
+        <!-- Авторизован -->
+
+        <div class="header__user">
+          <a href="profile.html">
+            <div class="avatar avatar--medium active">
+              <img src="https://randomuser.me/api/portraits/men/37.jpg" alt="Аватар" />
+            </div>
+            <p>Андрей <span>@paranoia</span></p>
+          </a>
+          <button class="dropdown-button">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>стрелка вниз</title>
+              <path d="M16 21l-13-13h-3l16 16 16-16h-3l-13 13z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="dropdown-menu">
+          <a href="settings.html" class="dropdown-link">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>инструменты</title>
+              <path
+                d="M27.465 32c-1.211 0-2.35-0.471-3.207-1.328l-9.392-9.391c-2.369 0.898-4.898 0.951-7.355 0.15-3.274-1.074-5.869-3.67-6.943-6.942-0.879-2.682-0.734-5.45 0.419-8.004 0.135-0.299 0.408-0.512 0.731-0.572 0.32-0.051 0.654 0.045 0.887 0.277l5.394 5.395 3.586-3.            586-5.394-5.395c-0.232-0.232-0.336-0.564-0.276-0.887s0.272-0.596 0.572-0.732c2.552-1.152 5.318-1.295 8.001-0.418 3.274 1.074 5.869 3.67 6.943 6.942 0.806 2.457 0.752 4.987-0.15 7.358l9.392 9.391c0.844 0.842 1.328 2.012 1.328 3.207-0 2.5-2.034 4.535-4.535 4.535zM15.101 19.102c0.26 0 0.516 0.102 0.707 0.293l9.864 9.863c0.479 0.479 1.116 0.742 1.793 0.742 1.398 0 2.535-1.137 2.535-2.535 0-0.668-0.27-1.322-0.742-1.793l-9.864-9.863c-0.294-0.295-0.376-0.74-0.204-1.119 0.943-2.090 1.061-4.357 0.341-6.555-0.863-2.631-3.034-4.801-5.665-5.666-1.713-0.561-3.468-0.609-5.145-0.164l4.986 4.988c0.391 0.391 0.391 1.023 0 1.414l-5 5c-0.188 0.188-0.441 0.293-0.707 0.293s-0.52-0.105-0.707-0.293l-4.987-4.988c-0.45 1.682-0.397 3.436 0.164 5.146 0.863 2.631 3.034 4.801 5.665 5.666 2.2 0.721 4.466 0.604 6.555-0.342 0.132-0.059 0.271-0.088 0.411-0.088z">
+              </path>
+            </svg>
+            Настройки
+          </a>
+          <a href="login.html" class="dropdown-link">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>выход</title>
+              <path
+                d="M3 0h22c0.553 0 1 0 1 0.553l-0 3.447h-2v-2h-20v28h20v-2h2l0 3.447c0 0.553-0.447 0.553-1 0.553h-22c-0.553 0-1-0.447-1-1v-30c0-0.553 0.447-1 1-1z">
+              </path>
+              <path
+                d="M21.879 21.293l1.414 1.414 6.707-6.707-6.707-6.707-1.414 1.414 4.293 4.293h-14.172v2h14.172l-4.293 4.293z">
+              </path>
+            </svg>
+            Выйти
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="layout layout--3">
+    <div class="container">
+      <!-- Темы Начало -->
+      <div class="topics">
+        <div class="topics__header">
+          <h2>Просмотр Тем</h2>
+        </div>
+        <ul class="topics__list">
+          <li>
+            <a href="/" class="active">Все <span>553</span></a>
+          </li>
+          <li>
+            <a href="/">Python <span>232</span></a>
+          </li>
+          <li>
+            <a href="/">JavaScript <span>122</            </span></a>
+          </li>
+          <li>
+            <a href="/">React <span>57</span></a>
+          </li>
+          <li>
+            <a href="/">Базы данных <span>90</span></a>
+          </li>
+        </ul>
+        <a class="btn btn--link" href="topics.html">
+          Больше
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <title>стрелка вниз</title>
+            <path d="M16 21l-13-13h-3l16 16 16-16h-3l-13 13z"></path>
+          </svg>
+        </a>
+      </div>
+      <!-- Темы Конец -->
+
+      <!-- Список Комнат Начало -->
+      <div class="roomList">
+        <div class="mobile-menu">
+          <form class="header__search">
+            <label>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>поиск</title>
+                <path
+                  d="M32 30.586l-10.845-10.845c1.771-2.092 2.845-4.791 2.845-7.741 0-6.617-5.383-12-12-12s-12 5.383-12 12c0 6.617 5.383 12 12 12 2.949 0 5.649-1.074 7.741-2.845l10.845 10.845 1.414-1.414zM12 22c-5.514 0-10-4.486-10-10s4.486-10 10-10c5.514 0 10 4.486 10 10s-4.486 10-10 10z">
+                </path>
+              </svg>
+              <input placeholder="Поиск постов" />
+            </label>
+          </form>
+          <div class="mobile-menuItems">
+            <a class="btn btn--main btn--pill" href="#">Просмотр Тем</a>
+            <a class="btn btn--main btn--pill" href="#">Недавние Активности</a>
+          </div>
+        </div>
+        <div class="roomList__header">
+          <div>
+            <h2>Учебные Комнаты</h2>
+            <p>7,439 комнат доступно</p>
+          </div>
+          <a class="btn btn--main" href="create-room.html">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>добавить</title>
+              <path
+                d="M16.943 0.943h-1.885v14.115h-14.115v1.885h14.115v14.115h1.885v-14.115h14.115v-1.885h-14.115v-14.115z">
+              </path>
+            </svg>
+            Создать Комнату
+          </a>
+        </div>
+        <div class="roomListRoom">
+          <div class="roomListRoom__header">
+            <a href="profile.html" class="roomListRoom__author">
+              <div class="avatar avatar--small">
+                <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="Аватар" />
+              </div>
+              <span>@sulamita_ivy</span>
+            </a>
+            <div class="roomListRoom__actions">
+              <span>5 дней назад</span>
+            </div>
+          </div>
+          <div class="roomListRoom__content">
+            <a href="room.html">JavaScript для начинающих</a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ducimus harum dolorem, obcaecati
+              mollitia omnis quasi aut consequuntur enim itaque labore.
+            </p>
+          </div>
+          <div class="roomListRoom__meta">
+            <a href="room.html" class="roomListRoom__joined">
+              <svg version="1.1" xmlns="              http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <title>участники</title>
+                <path
+                  d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16c8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 30c-7.732 0-14-6.268-14-14s6.268-14 14-14c7.732 0 14 6.268 14 14s-6.268 14-14 14zM16 8c-4.418 0-8 3.582-8 8s3.582 8 8 8c4.418 0 8-3.582 8-8s-3.582-8-8-8zM16 22c-3.313 0-6-2.687-6-6s2.687-6 6-6c3.313 0 6 2.687 6 6s-2.687 6-6 6z">
+                </path>
+              </svg>
+              45 участников
+            </a>
+          </div>
+        </div>
+        <!-- Повторите блок roomListRoom для других комнат -->
+      </div>
+      <!-- Список Комнат Конец -->
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <a href="/">
+            <img src="images/logo.png" alt="Логотип" />
+          </a>
+        </div>
+        <nav class="footer__nav">
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+          </ul>
+        </nav>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>facebook</title>
+              <path
+                d="M18 6h4v-6h-4c-3.313 0-6 2.687-6 6v4h-4v6h4v16h6v-16h4l1-6h-5v-4c0-1.104 0.896-2 2-2z">
+              </path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>twitter</title>
+              <path
+                d="M32 6.076c-1.177 0.522-2.444 0.874-3.768 1.034 1.354-0.811 2.391-2.096 2.884-3.627-1.268 0.751-2.674 1.297-4.169 1.591-1.196-1.275-2.9-2.071-4.788-2.071-3.626 0-6.564 2.938-6.564 6.563 0 0.515 0.058 1.016 0.17 1.496-5.457-0.274-10.293-2.888-13.531-6.861-0.565 0.971-0.889 2.099-0.889 3.301 0 2.278 1.159 4.287 2.918 5.466-1.077-0.034-2.091-0.33-2.977-0.823v0.083c0 3.183 2.264 5.836 5.268 6.437-0.552 0.15-1.134 0.231-1.732 0.231-0.424               0-0.832 0.041-1.231 0.117 0.833 2.599 3.252 4.493 6.118 4.544-2.24 1.756-5.065 2.803-8.133 2.803-0.528 0-1.048-0.031-1.561-0.092 2.899 1.859 6.342 2.944 10.043 2.944 12.054 0 18.644-9.984 18.644-18.644 0-0.284-0.006-0.566-0.019-0.847 1.281-0.923 2.391-2.081 3.268-3.397z">
+              </path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+              <title>instagram</title>
+              <path
+                d="M16 7.75c-4.556 0-8.25 3.694-8.25 8.25s3.694 8.25 8.25 8.25 8.25-3.694 8.25-8.25-3.694-8.25-8.25-8.25zM16 22.5c-3.589 0-6.5-2.911-6.5-6.5s2.911-6.5 6.5-6.5 6.5 2.911 6.5 6.5-2.911 6.5-6.5 6.5zM22.5 6.75c-0.828 0-1.5 0.672-1.5 1.5s0.672 1.5 1.5 1.5 1.5-0.672 1.5-1.5-0.672-1.5-1.5-1.5zM16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 30c-7.732 0-14-6.268-14-14s6.268-14 14-14c7.732 0 14 6.268 14 14s-6.268 14-14 14z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

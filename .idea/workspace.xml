@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="895c807d-076f-4fb9-8732-328901775f69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/build_files.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StudyBud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StudyBud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/activity_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/activity_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/delete_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/delete_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/feed_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/feed_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/home_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/home_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/login_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/login_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/login_register_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/login_register_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/room_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/room_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/room_form_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/room_form_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/room_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/room_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/topics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/topics_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/topics_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/update-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/update-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/1868782.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/2021-06-27_16_29_50-Window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/22437186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/35072868.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/Dennis_Ivanov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/dennis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/dennis_YYI5oDa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/dennis_f7ALlVg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studybud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studybud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studybud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studybud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/create-room.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/create-room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/edit-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/edit-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/topics.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hUwjjmwCgSJ4jXnY8BXgG722sd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/imako/PycharmProjects/StudyBud&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\imako\PycharmProjects\StudyBud" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="895c807d-076f-4fb9-8732-328901775f69" name="Changes" comment="" />
+      <created>1717662101192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717662101192</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
